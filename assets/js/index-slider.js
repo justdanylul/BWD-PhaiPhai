@@ -14,7 +14,8 @@ const content_text_pop = document.querySelector('.content_community-text');
 
 window.addEventListener('scroll', () => {
     let scroll = window.pageYOffset;
-    console.log(scroll);
+    // console.log(scroll);
+    console.log(window.innerHeight);
 
     content_circle.style.transform = `scale(${scroll - 1650}%)`;
 
