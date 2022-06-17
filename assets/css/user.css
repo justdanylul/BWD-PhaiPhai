@@ -236,7 +236,7 @@ body {
 .content_collection_games {
     display: flex;
     flex-wrap: wrap;
-    gap: 22.5px;
+    gap: 22px;
 }
 
 .content_collection-item img {

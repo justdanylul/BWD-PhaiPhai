@@ -134,6 +134,7 @@ ul {
     cursor: pointer;
     text-transform: uppercase;
     font-family: 'Neue Haas Grotesk Display Pro';
+    font-weight: 600;
 }
 
 .nav-item-link::before {

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cume</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <!-- <link rel="stylesheet" href="assets/fonts/Bas/baseticalFont.css"> -->
+    <link rel="stylesheet" href="assets/fonts/Bas/baseticalFont.css">
     <link rel="stylesheet" href="assets/fonts/Neue/stylesheet.css">
     <link rel="stylesheet" href="assets/fonts/helix/stylesheet.css">
     <link rel="stylesheet" href="assets/fonts/helix-reg/stylesheet.css">
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome-free-6.1.1-web/css/all.min.css">
     <script src="assets/js/navbar.js" defer></script>
     <link rel="stylesheet" href="assets/css/custom-scroll.css">
+    <script src="assets/js/games-main.js" defer></script>
 </head> 
 <body>
     <header class="header">
@@ -30,8 +31,8 @@
                     <a href="news-2.html" class="nav-item-link nonsearch2">news</a>
                 </li>
                 <li class="nav-item"><a href="" class="nav-item-link nonsearch3 nav-item-link--chosen">games</a></li>
-                <li class="nav-item"><a href="" class="nav-item-link nonsearch4">support</a></li>
-                <li class="nav-item"><a href="" class="nav-item-link nonsearch5"><i class="fa-solid fa-user"></i></a></li>
+                <li class="nav-item"><a href="support.html" class="nav-item-link nonsearch4">support</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-item-link nonsearch5"><i class="fa-solid fa-user"></i></a></li>
                 <li class="nav-item nav-item--list">
                     <button class="button is-text" id="menu-button">
                         <div class="button-inner-wrapper">
@@ -56,6 +57,7 @@
                     <li><a href="login.html">account</a></li>
                     <li>search</li>
                 </ul>
+            </ul>
             </li>
         </ul>
     </header>
@@ -80,32 +82,88 @@
             </div>
 
                 <div class="content_feature">
-                    <div class="content_feature-images-slide">
-    
-                        <a href="games-item.html" class="content_feature_box">
-                            <img class="content_feature-img" src="assets/img/games/featured/gow/goww.jpg" alt="">
-        
-                            <div class="content_feature_info">
-                                <div class="content_feature_info-title">GOD OF WAR</div>
-        
-                                <div class="content_feature_info-img">
-                                    <img src="assets/img/games/featured/gow/gow-1.jpg">
-                                    <img src="assets/img/games/featured/gow/gow-2.jpg">
-                                    <img src="assets/img/games/featured/gow/gow-3.jpg">
-                                    <img src="assets/img/games/featured/gow/gow-4.jpg">
-                                </div>
-        
-                                <div class="content_feature_info-state">now available</div>
-        
-                                <div class="content_feature_info-sale">
-                                    <div class="top_seller">top seller</div>
-                                    <p>$69.69</p>
-                                    <i class="fa-brands fa-windows"></i>
-                                    <i class="fa-solid fa-apple-whole"></i>
-                                </div>
+                    <div class="content_feature_left">
+                        <a href="games-item.html" class="content_feature_left-item box1">
+                            <img src="assets/img/news/mid/summer-fest.jpg" alt="">
+                            <div class="content_feature_left-item-text">
+                                <h2>Don't miss out</h2>
+                                <p>It's your last chance to save big on great games with an additional 25% off using the Epic Coupon. Sale ends June 16!</p>
                             </div>
                         </a>
-    
+
+                        <div class="content_feature_left-item box2">
+                            <img src="assets/img/games/featured/rocket-leauge.jpg" alt="">
+                            <div class="content_feature_left-item-text">
+                                <img style="filter: invert(82%) sepia(70%) saturate(378%) hue-rotate(127deg) brightness(100%) contrast(98%);" src="assets/img/games/featured/rocket-leauge-title.jpg" alt="">
+                                <h2>NEW SEASON</h2>
+                                <p>Taste the finer things in life during Season 7 with an all-new Rocket Pass, Utopia Lux Arena, and dazzling content!</p>
+                            </div>
+                        </div>
+
+                        <div class="content_feature_left-item box3">
+                            <img src="assets/img/news/mid/saint-row.jfif" alt="">
+                            <div class="content_feature_left-item-text">
+                                <img style="filter: invert(82%) sepia(70%) saturate(378%) hue-rotate(127deg) brightness(100%) contrast(98%);" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Saint_Row_2022_black_logo.png/640px-Saint_Row_2022_black_logo.png" alt="">
+                                <h2>NEW SEASON</h2>
+                                <p>Unlock your unltimate power with the new Saint customization tabs ever seen in a Saint Row games.</p>
+                            </div>
+                        </div>
+
+                        <div class="content_feature_left-item box4">
+                            <img src="assets/img/games/spidermann.webp" alt="">
+                            <div class="content_feature_left-item-text">
+                                <img src="assets/img/games/featured/spiderman-title.png" alt="">
+                                <h2>NEW SEASON</h2>
+                                <p>In the new world of the one and only Spider Man, exsisting in the Marvel Universe is back with a new looks.</p>
+                            </div>
+                        </div>
+
+                        <div class="content_feature_left-item box5">
+                            <img src="assets/img/games/f29c62a51480426287cfab39330bfbbb1a49e266.webp" alt="">
+                            <div class="content_feature_left-item-text">
+                                <img style="filter: invert(82%) sepia(70%) saturate(378%) hue-rotate(127deg) brightness(100%) contrast(98%);" src="assets/img/games/featured/Genshin-Impact-Logo.png" alt="">
+                                <h2>NEW SEASON</h2>
+                                <p>New Xiao story, new content to explore. What are you waiting for? The new version 2.7 is out now!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="content_feature_right">
+                        <div class="content_feature_right-item but1">
+                            <div class="content_feature-img">
+                                <img src="assets/img/news/mid/summer-fest.jpg" alt="">
+                            </div>
+                            <p>Mega Sales Ending Soon</p>
+                        </div>
+
+                        <div class="content_feature_right-item but2">
+                            <div class="content_feature-img">
+                                <img src="assets/img/games/featured/rocket-leauge.jpg" alt="">
+                            </div>
+                            <p>Rocket Leauge</p>
+                        </div>
+
+                        <div class="content_feature_right-item but3">
+                            <div class="content_feature-img">
+                                <img src="assets/img/news/mid/saint-row.jfif" alt="">
+                            </div>
+                            <p>Saint Row</p>
+                        </div>
+
+                        <div class="content_feature_right-item but4">
+                            <div class="content_feature-img">
+                                <img src="assets/img/games/spiderman-icon.jfif" alt="">
+                            </div>
+                            <p>Marvel's Spider-Man Remastered</p>
+                        </div>
+
+                        <div class="content_feature_right-item but5">
+                            <div class="content_feature-img">
+                                <img src="assets/img/games/Genshin_Impact_cover.jpg" alt="">
+                            </div>
+                            <p>Genshin Impact</p>
+                        </div>
+
                     </div>
                 </div>
     
